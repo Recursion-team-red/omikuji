@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>ソフトウェア開発みくじ</title>
+  </head>
+  <body>
+    <!-- 0.background作成 j-->
+    <!-- 1.赤枠（コンテナ）を作る -->
+    <div class="home">
+      <div class="omikujiFrame p-2 row">
+        <div id="daikichi" class="omikujiBox">
+          <div class="omikujiTitle omikujiBorder-bottom">
+            <h5>ソフトウェア開発みくじ</h5>
+          </div>
+          <div class="result omikujiBorder-bottom">
+            <!-- 画像を挿入 -->
+            <img src="images/daikichi.png" alt="大吉" />
+            <!-- 結果表示 -->
+            <h2>大吉</h2>
+          </div>
+          <!-- 5.みくじ内容作成 -->
+          <div class="contents omikujiBorder-bottom">
+            <p>
+              GitHub Sponsors
+              を通じて太っ腹なスポンサーがつきます。これであなたの OSS
+              開発は安泰です!!
+            </p>
+          </div>
+          <!-- 6.言語 -->
+          <div class="omikujiBorder-bottom mt-2">
+            <p>✿ラッキー言語✿</p>
+            <p>Python</p>
+          </div>
+          <!-- 7.データベース -->
+          <div class="omikujiBorder-bottom mt-2">
+            <p>✿ラッキーデータベース✿</p>
+            <p>SQL Server</p>
+          </div>
+          <!-- 9.エディタ ボタン -->
+          <div class="align-items-center mt-2">
+            <p>✿ラッキーエディタ✿</p>
+            <p>nano</p>
+            <button type="button" class="btn btn-danger mb-3">
+              もう一度おみくじを引く
+            </button>
+          </div>
+        </div>
+        <div id="kichi" class="omikujiBox">
+          <div class="omikujiTitle omikujiBorder-bottom">
+            <h5>ソフトウェア開発みくじ</h5>
+          </div>
+          <div class="result omikujiBorder-bottom">
+            <!-- 画像を挿入 -->
+            <img src="images/kichi.png" alt="吉" />
+            <!-- 結果表示 -->
+            <h2>吉</h2>
+          </div>
+          <!-- 5.みくじ内容作成 -->
+          <div class="contents omikujiBorder-bottom">
+            <p>
+              リファクタリングに成功してプログラムが爆速に!!
+              サクサク動いて気持ちいいーーー!!
+            </p>
+          </div>
+          <!-- 6.言語 -->
+          <div class="omikujiBorder-bottom mt-2">
+            <p>✿ラッキー言語✿</p>
+            <p>Python</p>
+          </div>
+          <!-- 7.データベース -->
+          <div class="omikujiBorder-bottom mt-2">
+            <p>✿ラッキーデータベース✿</p>
+            <p>SQL Server</p>
+          </div>
+          <!-- 9.エディタ ボタン -->
+          <div class="align-items-center mt-2">
+            <p>✿ラッキーエディタ✿</p>
+            <p>nano</p>
+            <button type="button" class="btn btn-danger mb-3">
+              もう一度おみくじを引く
+            </button>
+          </div>
+        </div>
+        <div id="chukichi" class="omikujiBox">
+          <div class="omikujiTitle omikujiBorder-bottom">
+            <h5>ソフトウェア開発みくじ</h5>
+          </div>
+          <div class="result omikujiBorder-bottom">
+            <!-- 画像を挿入 -->
+            <img src="images/chukishi.png" alt="中吉" class="my-4" />
+            <!-- 結果表示 -->
+            <h2>中吉</h2>
+          </div>
+          <!-- 5.みくじ内容作成 -->
+          <div class="contents omikujiBorder-bottom">
+            <p>
+              git でコンフリクトが発生します!!
+              が、今回は上手く解消できるでしょう。 今回は・・・
+            </p>
+          </div>
+          <!-- 6.言語 -->
+          <div class="omikujiBorder-bottom mt-2">
+            <p>✿ラッキー言語✿</p>
+            <p>Python</p>
+          </div>
+          <!-- 7.データベース -->
+          <div class="omikujiBorder-bottom mt-2">
+            <p>✿ラッキーデータベース✿</p>
+            <p>SQL Server</p>
+          </div>
+          <!-- 9.エディタ ボタン -->
+          <div class="align-items-center mt-2">
+            <p>✿ラッキーエディタ✿</p>
+            <p>nano</p>
+            <button type="button" class="btn btn-danger mb-3">
+              もう一度おみくじを引く
+            </button>
+          </div>
+        </div>
+        <div id="shokichi" class="omikujiBox">
+          <div class="omikujiTitle omikujiBorder-bottom">
+            <h5>ソフトウェア開発みくじ</h5>
+          </div>
+          <div class="result omikujiBorder-bottom">
+            <!-- 画像を挿入 -->
+            <img src="images/syokichi.png" alt="小吉" class="my-4" />
+            <!-- 結果表示 -->
+            <h2>小吉</h2>
+          </div>
+          <!-- 5.みくじ内容作成 -->
+          <div class="contents omikujiBorder-bottom">
+            <p>
+              開発の要件定義が綿飴のようにふわっふわです。
+              手遅れにならないうちに手を打っておくのが吉。
+            </p>
+          </div>
+          <!-- 6.言語 -->
+          <div class="omikujiBorder-bottom mt-2">
+            <p>✿ラッキー言語✿</p>
+            <p>Python</p>
+          </div>
+          <!-- 7.データベース -->
+          <div class="omikujiBorder-bottom mt-2">
+            <p>✿ラッキーデータベース✿</p>
+            <p>SQL Server</p>
+          </div>
+          <!-- 9.エディタ ボタン -->
+          <div class="align-items-center mt-2">
+            <p>✿ラッキーエディタ✿</p>
+            <p>nano</p>
+            <button type="button" class="btn btn-danger mb-3">
+              もう一度おみくじを引く
+            </button>
+          </div>
+        </div>
+        <div id="suekichi" class="omikujiBox">
+          <div class="omikujiTitle omikujiBorder-bottom">
+            <h5>ソフトウェア開発みくじ</h5>
+          </div>
+          <div class="result omikujiBorder-bottom">
+            <!-- 画像を挿入 -->
+            <img src="images/suekichi.png" alt="末吉" />
+            <!-- 結果表示 -->
+            <h2>末吉</h2>
+          </div>
+          <!-- 5.みくじ内容作成 -->
+          <div class="contents omikujiBorder-bottom">
+            <p>
+              関わっているプロジェクトから何だか香ばしい匂いがします。
+              炎上する前になんとか逃げるのが吉。
+            </p>
+          </div>
+          <!-- 6.言語 -->
+          <div class="omikujiBorder-bottom mt-2">
+            <p>✿ラッキー言語✿</p>
+            <p>Python</p>
+          </div>
+          <!-- 7.データベース -->
+          <div class="omikujiBorder-bottom mt-2">
+            <p>✿ラッキーデータベース✿</p>
+            <p>SQL Server</p>
+          </div>
+          <!-- 9.エディタ ボタン -->
+          <div class="align-items-center mt-2">
+            <p>✿ラッキーエディタ✿</p>
+            <p>nano</p>
+            <button type="button" class="btn btn-danger mb-3">
+              もう一度おみくじを引く
+            </button>
+          </div>
+        </div>
+        <div id="kyo" class="omikujiBox">
+          <div class="omikujiTitle omikujiBorder-bottom">
+            <h5>ソフトウェア開発みくじ</h5>
+          </div>
+          <div class="result omikujiBorder-bottom">
+            <!-- 画像を挿入 -->
+            <img src="images/kyo.png" alt="凶" class="mb-4 mt-5" />
+            <!-- 結果表示 -->
+            <h2>凶</h2>
+          </div>
+          <!-- 5.みくじ内容作成 -->
+          <div class="contents omikujiBorder-bottom">
+            <p>
+              前任者から引き継いだコードがスパゲティ状態です。
+              残念ながらあなたの力ではどうにもならないので、せめて自分はこんなコードを書かないように今後の糧にしましょう。
+            </p>
+          </div>
+          <!-- 6.言語 -->
+          <div class="omikujiBorder-bottom mt-2">
+            <p>✿ラッキー言語✿</p>
+            <p>Python</p>
+          </div>
+          <!-- 7.データベース -->
+          <div class="omikujiBorder-bottom mt-2">
+            <p>✿ラッキーデータベース✿</p>
+            <p>SQL Server</p>
+          </div>
+          <!-- 9.エディタ ボタン -->
+          <div class="align-items-center mt-2">
+            <p>✿ラッキーエディタ✿</p>
+            <p>nano</p>
+            <button type="button" class="btn btn-danger mb-3">
+              もう一度おみくじを引く
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <script type="text/javascript" src="main.js"></script> -->
+  </body>
+</html>
